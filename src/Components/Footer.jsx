@@ -6,7 +6,7 @@ const Footer = () => {
            <footer className='py-3 bg-dark'>
             <div className='container'>
                 <p className='m-0 text-center text-white'>
-                    copyright &copy; kirthi 2024
+                    Innovation for a Better Future 🤍
                 </p>
             </div>
            </footer>
