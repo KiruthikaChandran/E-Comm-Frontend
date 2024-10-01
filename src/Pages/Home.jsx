@@ -18,7 +18,7 @@ const Home = () => {
   const fetchData = async () => {
     try {
       const res = await axios.get(
-        "https://ecomm-backend-dc9u.onrender.com/api/products/get"
+        "https://backend-afs9.onrender.com/api/products/"
       );
       setProducts(res.data.result);
     } catch (error) {
@@ -47,7 +47,7 @@ const Home = () => {
     e.preventDefault();
     try {
       await axios.put(
-        `https://ecomm-backend-dc9u.onrender.com/api/products/edit/${editProduct._id}`,
+        `https://backend-afs9.onrender.com/api/products/edit/${editProduct._id}`,
         formData
       );
       setEditProduct(null); //clear after edited
@@ -61,7 +61,7 @@ const Home = () => {
   const handleDelete = async (id) => {
     try {
       await axios.delete(
-        `https://ecomm-backend-dc9u.onrender.com/api/products/delete/${id}`
+        `https://backend-afs9.onrender.com/api/products/delete/${id}`
       );
       fetchData(); // to refresh the product list after deleting
     } catch (error) {
