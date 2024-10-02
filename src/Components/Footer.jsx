@@ -5,9 +5,9 @@ const Footer = () => {
         <div>
            <footer className='py-3 bg-dark'>
             <div className='container'>
-                <p className='m-0 text-center text-white'>
+                <p className='m-0 text-center text-aqua'><i>
                     Innovation for a Better Future 🤍
-                </p>
+                </i></p>
             </div>
            </footer>
         </div>
